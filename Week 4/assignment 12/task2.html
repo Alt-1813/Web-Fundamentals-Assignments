@@ -1,0 +1,39 @@
+<!-- Assignment 12
+2.  Write a program to have 3 variables (all three are number) and output the highest/greatest/maximum of all three. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A12.2 Altamash Malnas</title>
+</head>
+<h1> Assignment 12 <br>
+    2 . Write a program to have 3 variables (all three are number) and output the highest/greatest/maximum of all three. <br>
+     check console.log
+</h1>
+<body>
+    <script>function max_of_three(x, y, z) 
+        {
+         max_val = 0;
+         if (x > y)
+         {
+           max_val = x;
+         } else
+         {
+           max_val = y;
+         }
+         if (z > max_val) 
+         {
+           max_val = z;
+         }
+         return max_val;
+       }
+       
+       console.log(max_of_three(1,0,1));
+       console.log(max_of_three(0,-10,-20));
+       console.log(max_of_three(1000,510,440));
+       </script>
+</body>
+</html>
